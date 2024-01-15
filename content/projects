@@ -1,0 +1,7 @@
+<h2>Other projects</h2>
+<h3><a href="avrgbi">&gt; AVRGBI</a></h3>
+<p class="description">Arduino firmware for outputting low-res color video, controllable via serial interface.</p>
+<h3><a href="yamvgen">&gt; YAMVGEN</a></h3>
+<p class="description">Scripts for automatically generating cover art and music visualizer from SVG templates and audio metadata.</p>
+<h3><a href="stuff/penny">&gt; Penny Rolling Simulator</a></h3>
+<p class="description">Very minimal JS implementation of that one Bri'ish game for school demonstration purposes.</p>

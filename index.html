@@ -1,6 +1,33 @@
-<html><head><title>Trancwolve's website thing</title>
-</head><body>
-<h1>Welcome to Trancwolve's website thing</h1>
-<p>Page is under construction, pls come back later.</p>
-<p><a href="https://trancwolve.bandcamp.com">Listen to some good musicc in the meantime.</a>
-</body></html>
+<!--
+Seems like you are reading the source code of the page, which means you are either unreasonably interested or just bored af.
+Either way, I have to tell you personally that you are cute. :3
+-->
+<html><head><link rel='stylesheet' href='style.css'><title>Trancwolve's website thing</title></head>
+<body><img src='header.svg'>
+<div id="menu">
+<a onclick="menuclick(this);" id="home" class="active">Home</a>
+<a onclick="menuclick(this);" id="lynx">Links</a>
+<a onclick="menuclick(this);" id="musicc">Musicc</a>
+<a onclick="menuclick(this);" id="projects">Other projects</a>
+<a onclick="menuclick(this);" id="lore">Lore</a>
+</div>
+<div id=content></div>
+<script>
+if(window.location.hash)
+document.getElementById(window.location.hash.substring(1)).click();
+else
+document.getElementsByClassName('active')[0].click();
+function menuclick(e) {
+document.getElementsByClassName('active')[0].classList.remove("active");
+e.classList.add("active");
+var xhttp=new XMLHttpRequest();
+xhttp.onreadystatechange=function()
+{
+if (this.readyState==4)
+document.getElementById('content').innerHTML=this.responseText;
+}
+xhttp.open('GET','content/'+e.id);
+xhttp.send();
+return;
+}
+</script></body></html>
