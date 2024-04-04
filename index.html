@@ -1,33 +1,16 @@
-<!--
-Seems like you are reading the source code of the page, which means you are either unreasonably interested or just bored af.
-Either way, I have to tell you personally that you are cute. :3
--->
-<html><head><link rel='stylesheet' href='style.css'><title>Trancwolve's website thing</title></head>
-<body><img src='header.svg'>
-<div id="menu">
-<a onclick="menuclick(this);" id="home" class="active">Home</a>
-<a onclick="menuclick(this);" id="lynx">Links</a>
-<a onclick="menuclick(this);" id="musicc">Musicc</a>
-<a onclick="menuclick(this);" id="projects">Other projects</a>
-<a onclick="menuclick(this);" id="lore">Lore</a>
-</div>
-<div id=content></div>
-<script>
-if(window.location.hash)
-document.getElementById(window.location.hash.substring(1)).click();
-else
-document.getElementsByClassName('active')[0].click();
-function menuclick(e) {
-document.getElementsByClassName('active')[0].classList.remove("active");
-e.classList.add("active");
-var xhttp=new XMLHttpRequest();
-xhttp.onreadystatechange=function()
-{
-if (this.readyState==4)
-document.getElementById('content').innerHTML=this.responseText;
-}
-xhttp.open('GET','content/'+e.id);
-xhttp.send();
-return;
-}
-</script></body></html>
+<html><head><link rel='stylesheet' href='style.css'><title>Trancwolve's website thing</title></head><body><img src='header.svg'>
+<div id="m">
+<a>Home</a>
+<a href="lynx">Links</a>
+<a href="musicc">Musicc</a>
+<a href="stuff">Other projects</a>
+<a href="lore">Lore</a>
+</div><div id="c">
+<h2>Hi.</h2>
+<p>I am Trancwolve (aka.&nbsp;Steve&nbsp;Pixus (aka.&nbsp;Zynskey&nbsp;Wolf)), your average IT student and self-taught electronic musicc producer who is obsessed with Linux and FOSS.</p>
+<p>You are looking at my highly unprofessional smol website thing, which is an attempt to organize the stuff I do, which otherwise is all over the place. Here you can find the <a href="lynx">links</a> to all of my projects on all possible platforms.</p>
+<h2>Contact info</h2>
+<p>Yes.</p>
+<p>If you are an actual living organism with at least one brain cell, you can probably find the ways of contacting me.</p>
+<p>You can call me by whichever name you want, and please don't be overly polite because that's scary.</p>
+</div></body></html>
