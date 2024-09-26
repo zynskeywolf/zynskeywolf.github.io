@@ -1,0 +1,30 @@
+@font-face{font-family:'Mono';src:url("DejaVuSansMono.ttf")}
+body{background-image:url('bg.png');color:#bdf;font-family:'Mono';line-height:1.4;text-shadow: 0 0 8px #06f}
+img{margin:0 auto;width:100%;max-width:1130px;display:block}
+h2{margin:48px 0 16px 0;font-size:28;color:#0af}
+h3{margin:8px 0;font-size:20}
+a{text-decoration:none;color:#bdf;text-shadow:none}
+#m{
+margin:0 auto;
+position:sticky;
+top:0;
+width:1200px;
+height:48px;
+max-width:100%;
+background-color:#000;
+line-height:48px;
+text-align:center;
+font-style:oblique;
+font-size:18;
+font-weight:bold;
+white-space:nowrap
+}
+#m a{float:left;width:20%;background-size:100% 100%}
+#m a[href]:hover{background-image:url('hover.svg')}
+#m a:not([href]){background-image:url('active.svg')}
+#c{margin:0 auto 64px auto;max-width:1098px;text-align:justify}
+#c a{color:#39f}
+#c a:hover{color:#5df;text-shadow: 0 0 16px #07f}
+.description{margin:0 0 32px 0}
+.linksdiv{text-align:center}
+.lorep{text-indent:12px}
