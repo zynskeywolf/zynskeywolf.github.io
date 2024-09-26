@@ -1,9 +1,10 @@
 @font-face{font-family:'Mono';src:url("DejaVuSansMono.ttf")}
 body{background-image:url('bg.png');color:#bdf;font-family:'Mono';line-height:1.4;text-shadow: 0 0 8px #06f}
 img{margin:0 auto;width:100%;max-width:1130px;display:block}
-h2{margin:48px 0 16px 0;font-size:28;color:#0af}
+h2{margin:48px 0 16px 0;font-size:28;color:#7bf}
 h3{margin:8px 0;font-size:20}
 a{text-decoration:none;color:#bdf;text-shadow:none}
+li{text-align:left}
 #m{
 margin:0 auto;
 position:sticky;
@@ -23,7 +24,7 @@ white-space:nowrap
 #m a[href]:hover{background-image:url('hover.svg')}
 #m a:not([href]){background-image:url('active.svg')}
 #c{margin:0 auto 64px auto;max-width:1098px;text-align:justify}
-#c a{color:#39f}
+#c a{color:#08f}
 #c a:hover{color:#5df;text-shadow: 0 0 16px #07f}
 .description{margin:0 0 32px 0}
 .linksdiv{text-align:center}
