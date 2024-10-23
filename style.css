@@ -1,5 +1,5 @@
 @font-face{font-family:'Mono';src:url("DejaVuSansMono.ttf")}
-body{margin:0;background-image:url('bg.png');color:#bcf;font-family:'Mono';font-size:18;line-height:1.4}
+body{margin:0;background-image:url('bg.png');color:#acf;font-family:'Mono';font-size:18;line-height:1.4}
 p,#c a{text-shadow: 0 0 6px #08f}
 img{margin:0 auto;width:100%;max-width:1130px;display:block}
 h2{margin:0 0 16px 0;font-size:28;color:#0fa}
@@ -28,6 +28,6 @@ white-space:nowrap
 #m a[href]:hover{background-image:url('hover.svg')}
 #m a:not([href]){background-image:url('active.svg')}
 #c a{color:#0fa;text-shadow:none}
-#c h3 a{color:#bcf;display:block}
+#c h3 a{color:#acf;display:block}
 #c a lm{color:#043}
 #c a:hover lm{color:#0fa}
